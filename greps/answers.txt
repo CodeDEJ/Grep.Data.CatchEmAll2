@@ -54,6 +54,10 @@ wartortle
 
 # Part 2
 ### a)
+15
+
+ls -1 | wc -l (the -1 accounting for instructions.txt)
+
 
 
 
@@ -61,9 +65,13 @@ wartortle
 
 
 ### b)
-pikachu.txt:40
-beedrill.txt:40
-charizard.txt:40
 
-grep -e "^" -c captured/*.txt > captured/00lines.txt
+beedrill
+charizard
+pikachu
+
+
+wc -l * | sort
+
+("grep -e "^" -c captured/*.txt" provides a list, but does not sort)
 

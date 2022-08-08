@@ -1,23 +1,53 @@
 # Part 1
 ### a)
-
+grep "beed" forest/filescan_00.1 > captured/beedrill.txt
+grep "blas" forest/filescan_00.1 > captured/blastoise.txt
+grep "bulb" forest/filescan_00.1 > captured/bulbasaur.txt
+grep "butt" forest/filescan_00.1 > captured/butterfree.txt
+grep "izard" forest/filescan_00.2 > captured/charizard.txt
+grep "mander" forest/filescan_00.2 > captured/charmander.txt
+grep "meleon" forest/filescan_00.2 > captured/charmeleon.txt
+grep "ivys" forest/filescan_00.3 > captured/ivysaur.txt
+grep "jigg" forest/filescan_00.3 > captured/jigglypuff.txt
+grep "meow" forest/filescan_00.3 > captured/meowth.txt
+grep "pika" forest/filescan_00.3 > captured/pikachu.txt
+grep "psyd" forest/filescan_00.4 > captured/psyduck.txt
+grep "squi" forest/filescan_00.4 > captured/squirtle.txt
+grep "venu" forest/filescan_00.4 > captured/venusaur.txt
+grep "wart" forest/filescan_00.4 > captured/wartortle.txt
 
 
 
 ### b)
-
+see captured folder
 
 
 ### c)
+filescan_00.1
+beedrill
+blastoise
+bulbasaur
+butterfree
 
 
+filescan_00.2
+charizard
+charmander
+charmeleon
 
 
+filescan_00.3
+ivysaur
+jigglypuff
+meowth
+pikachu
 
 
-
-
-
+filescan_00.4
+psyduck
+squirtle
+venusaur
+wartortle
 
 
 
@@ -31,8 +61,9 @@
 
 
 ### b)
+pikachu.txt:40
+beedrill.txt:40
+charizard.txt:40
 
-
-
-
+grep -e "^" -c captured/*.txt > captured/00lines.txt
 
